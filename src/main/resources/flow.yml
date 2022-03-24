@@ -1,0 +1,18 @@
+flow:
+  record:
+    max-update-retries: 5
+#    data-dictionary:
+#      abc:
+#        - code: test_type
+#          value: work_notes
+#          text: Work notes
+#        - code: test_type
+#          value: comments
+#          text: Additional comments
+#      cba:
+#        - code: activity_type
+#          value: overwrite_test
+#          text: Overwrite test
+  numbering:
+    enforce-unique-number: false
+    max-retries: 10
