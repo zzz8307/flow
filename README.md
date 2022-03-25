@@ -65,7 +65,7 @@ GET http://<hostname>/flow/api/incidents
 | Name          | Type    | In   | Description                                                                                                           |
 | ------------- | ------- | ---- | --------------------------------------------------------------------------------------------------------------------- |
 | display_value | boolean | path | Determines the type of data returned, either the actual values from the database or the display values of the fields. |
-| query         | string  | path | Encoded query used to filter the result set. See below for more details.                                              |
+| query         | string  | path | Encoded query used to filter the result set. See [below](#query-syntax) for more details.                             |
 | offset        | integer | path | Starting record index for which to begin retrieving records. Default is 0.                                            |
 | limit         | integer | path | Maximum number of records to return. Default is 100.                                                                  |
 
